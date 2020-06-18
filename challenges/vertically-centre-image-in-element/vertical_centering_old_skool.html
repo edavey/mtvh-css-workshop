@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <style>
+      li {
+        border: 1px solid grey;
+        height: 10rem;
+        width: 10rem;
+        float: left;
+        text-align: center;
+        margin-right: 1rem;
+        display: table;
+        position: relative;
+        overflow: hidden;
+      }
+      li .inner {
+        top: 50%;
+        display: table-cell;
+        vertical-align: middle;
+      }
+      li .inner img {
+        top: -50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Gallery grid</h1>
+    <ol>
+      <li>
+        <div class="inner">
+          <image src="images/one.gif" />
+        </div>
+      </li>
+      <li>
+        <div class="inner">
+          <image src="images/two.gif" />
+        </div>
+      </li>
+      <li>
+        <div class="inner">
+          <image src="images/three.gif" />
+        </div>
+      </li>
+    </ol>
+  </body>
+</html>
