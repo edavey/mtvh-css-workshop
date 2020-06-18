@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./cascade_styles.css" />
+    <style>
+      .repairs {
+        background: green;
+        list-style: none;
+        padding: 2rem;
+        display: inline-block;
+      }
+      .repairs .repair {
+        background: ivory;
+        display: inline-block;
+        padding: 1rem;
+        float: left;
+      }
+      .repair:first-of-type {
+        margin-right: 2rem;
+      }
+      .repairs .repair a {
+        background: pink;
+        display: block;
+        padding: 1rem;
+      }
+      .repairs .repair a img {
+        border: 0.5rem solid blue;
+      }
+    </style>
+
+
+
+  </head>
+  <body>
+    <ol class="repairs">
+      <li class="repair selected">
+        <a hreflang='en'>
+          <img src="images/three.gif" />
+        </a>
+      </li>
+      <li class="repair">
+        <a hreflang='de'>
+          <img src="images/three.gif" />
+        </a>
+      </li>
+    </ol>
+  </body>
+</html>

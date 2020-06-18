@@ -1,0 +1,7 @@
+.repairs .repair a img {
+  border: 0.5rem solid cyan;
+}
+
+a {
+  border: 0.25rem solid grey;
+}
