@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <style>
+
+      /*html { font-size: 20px; }*/
+      div {
+        border: 3px solid grey;
+        margin-bottom: 2rem;
+        font-size: 16px;
+      }
+
+      .relative-to-viewport{
+        height: 20vh;
+        width: 20vw;
+        background: #FFD358;
+      }
+
+      .relative-rem {
+        height: 5rem;
+        width: 5rem;
+      }
+
+      .relative-em {
+        height: 5em;
+        width: 5em;
+      }
+
+      .fixed {
+        height: 150px;
+        width: 150px;
+      }
+      .wrapper { border: none; }
+    </style>
+
+
+
+  </head>
+  <body>
+    <h1> "View height" and "View width"</h1>
+
+    <div class="wrapper">
+      <div class="fixed">px</div>
+      <div class="relative-to-viewport">vh/vw</div>
+      <div class="relative-em">em</div>
+      <div class="relative-rem">rem</div>
+    </div>
+
+
+
+  </body>
+</html>
