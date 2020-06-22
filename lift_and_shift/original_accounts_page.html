@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Accounts - MTVH Online</title>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
+
+    <link rel="stylesheet" media="all" href="./mtvh_application.css">
+
+    <script src="./assets/application.js"></script>
+    <script src="./assets/modernizr.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+</head>
+
+<body data-controller="agreements" data-action="index">
+    <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+    <div class='content-wrapper'>
+        <header class='header'>
+            <nav class='navbar navbar-default navbar-fixed-top'>
+                <div class='container'>
+                    <div class='navbar-header'>
+                        <a class="navbar-brand" href="/">MTVH Online</a>
+                        <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+                            <span class='sr-only'>Toggle navigation</span>
+                            Menu
+                        </button>
+                    </div>
+                    <div class='navbar-collapse collapse'>
+                        <ul class='nav navbar-nav'>
+                            <li class='active'>
+                                <a href="/">Accounts</a>
+                            </li>
+                            <li>
+                                <a href="/repairs">Repairs</a>
+                            </li>
+                            <li>
+                                <a href="/enquiries">Enquiries</a>
+                            </li>
+                            <li>
+                                <a href="/contact">Contacts</a>
+                            </li>
+                        </ul>
+                        <ul class='nav navbar-nav navbar-right'>
+                            <li class='dropdown'>
+                                <a class='dropdown-toggle js-show' data-toggle='dropdown' href='#'>
+                                    Profile
+                                    <b class='caret'></b>
+                                </a>
+                                <ul class='dropdown-menu'>
+                                    <li>
+                                        <a href="/my/credentials">My credentials</a>
+                                    </li>
+                                    <li>
+                                        <a href="/my/details">My contact details</a>
+                                    </li>
+                                    <li>
+                                        <a href="/my/cards">My cards</a>
+                                    </li>
+                                    <li class='divider hidden-xs'></li>
+                                    <li>
+                                        <a class="sign-out" href="/sign_out">Sign out</a>
+                                    </li>
+                                </ul>
+                                <ul class='navbar-no-js js-hide'>
+                                    <li>
+                                        <a href="/my/credentials">My credentials</a>
+                                    </li>
+                                    <li>
+                                        <a href="/my/details">My contact details</a>
+                                    </li>
+                                    <li>
+                                        <a href="/my/cards">My cards</a>
+                                    </li>
+                                    <li class='divider hidden-xs'></li>
+                                    <li>
+                                        <a class="sign-out" href="/sign_out">Sign out</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class='notifications'>
+        </section>
+        <main class='container' id='main'>
+            <header class='page-header'>
+                <nav class='compact'><span>Accounts</span>
+                </nav>
+                <hgroup>
+                    <h1>
+                        Accounts
+                    </h1>
+                </hgroup>
+            </header>
+            <section class='agreements cascade'>
+                <div class='col-md-4'>
+                    <aside class='last'>
+                        <address class='user-details'>
+                            <heading>
+                                <h2 class='heading-small'>MR Donald Allen</h2>
+                            </heading>
+                            <div class='address'>
+                                <p>
+                                    <span class='address-line-1'>
+                                        10
+                                        BRADFORD CLOSE
+                                    </span>
+                                    <span class='address-line-3'>TOTTENHAM</span>
+                                    <span class='address-line-4'>LONDON</span>
+                                    <span class='address-post-code'>N17 8EN</span>
+                                </p>
+                            </div>
+                        </address>
+                    </aside>
+                    <article class='to-do-list last'>
+                        <span class='content'>
+                            <a data-disable-double-click="true" class="to-do-action" href="/email/45/provision">
+                                <p>Verify your email address so you can reset your passphrase should you forget it</p>
+                                <div class='btn'>Send verification email</div>
+                            </a></span>
+                    </article>
+                    <article class='cascade good-to-know'>
+                        <header class='part'>
+                            <h2>Good to know</h2>
+                        </header>
+                        <aside class='part js-dismissable'>
+                            <p class='empty'>When there is new activity on your MTVH Online account it will show here</p>
+                        </aside>
+                    </article>
+                </div>
+                <div class='col-md-8'>
+                    <article class='account current part'>
+                        <h2>
+                            <span class='name'>Rent account</span>
+                            <span class='arrears balance'><span class='price'>£4,332.60</span> in arrears</span>
+                        </h2>
+                        <div class='agreement-details'>
+                            <div class='agreement-period'>
+                                <span class='agreement-started key'>Started on</span>
+                                <span class='agreement-started value'>01/12/1997</span>
+                            </div>
+                            <div class='agreement-reference'>
+                                <span class='agreement-reference key'>Pay reference</span>
+                                <span class='agreement-reference value'>556201</span>
+                            </div>
+                        </div>
+                        <p>There are currently 0 future payments set up on this account</p>
+                    </article>
+                    <aside class='part last options text-right'>
+                        <div class='agreement-options'><a class="btn btn-secondary" href="/agreements/556201">View details</a>
+                            <a class="btn analyze" data-category="PaymentForm" data-action="StartPayment" data-label="FrontPageButton" href="/agreements/556201/payment/709fedb6a8147b34832afab3a8ce9826/new">Make payment</a>
+                        </div>
+                    </aside>
+                    <article class='account current part'>
+                        <h2>
+                            <span class='name'>Sundry account</span>
+                            <span class='balance'>£0.00</span>
+                        </h2>
+                        <div class='agreement-details'>
+                            <div class='agreement-period'>
+                                <span class='agreement-started key'>Started on</span>
+                                <span class='agreement-started value'>01/12/1997</span>
+                            </div>
+                            <div class='agreement-reference'>
+                                <span class='agreement-reference key'>Pay reference</span>
+                                <span class='agreement-reference value'>1559286</span>
+                            </div>
+                        </div>
+                        <p>There are currently 0 future payments set up on this account</p>
+                        <p>
+                            <b>Some of your processed future payments have failed</b>
+                        </p>
+                    </article>
+                    <aside class='part last options text-right'>
+                        <div class='agreement-options'><a class="btn btn-secondary" href="/agreements/1559286">View details</a>
+                            <a class="btn analyze" data-category="PaymentForm" data-action="StartPayment" data-label="FrontPageButton" href="/agreements/1559286/payment/f82c0a46937145be2ef43f7837fa7c48/new">Make payment</a>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+            <div class='feedback'>
+                <a href="/enquiries/raise"><span class='thumb'></span>
+                    <span>Ask MTVH</span>
+                </a></div>
+        </main>
+    </div>
+    <footer class='footer'>
+        <script>
+        var company_name = 'Metropolitan Thames Valley'
+        var cookie_settings = '<a target="_blank" href="https://www.mtvh.co.uk/cookie-policy/">cookie settings</a>'
+        </script>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-4'>
+                    <header id='intro'>
+                        <h1>Still need to talk to someone?</h1>
+                    </header>
+                </div>
+                <div class='col-md-8'>
+                    <section class='cascade corporate_contacts'>
+                        <div class='col-md-6'>
+                            <header class='corporate_contact_header'>Revenues Services</header>
+                            <article class='corporate_contact part team'>
+                                <hgroup>
+                                    <p>Anything to do with your MTVH accounts including payment, account management, rent and service charges.</p>
+                                </hgroup>
+                                <dl class='details'>
+                                    <dt class='mobile'>Phone</dt>
+                                    <dd><a href="tel:0203 535 3535">0203 535 3535</a></dd>
+                                </dl>
+                            </article>
+                        </div>
+                        <div class='col-md-6'>
+                            <header class='corporate_contact_header'>Ending Your Tenancy</header>
+                            <article class='corporate_contact part team'>
+                                <hgroup>
+                                    <p>And anything else to do with your tenancy, like buying your home or moving somewhere new.</p>
+                                </hgroup>
+                                <dl class='details'>
+                                    <dt class='email'>Email</dt>
+                                    <dd><a class="contact-email" href="mailto:TVHA%2520Ending%2520Your%2520Tenancy%253CAvailablehomes@metropolitan.org.uk%253E">Availablehomes@metropolitan.org.uk</a></dd>
+                                </dl>
+                            </article>
+                        </div>
+                        <div class='col-md-6'>
+                            <header class='corporate_contact_header'>Other Customer Services</header>
+                            <article class='corporate_contact part team'>
+                                <hgroup>
+                                    <p>Anything else that you need to talk to us about which isn&#39;t covered by the other options.</p>
+                                </hgroup>
+                                <dl class='details'>
+                                    <dt class='mobile'>Phone</dt>
+                                    <dd><a href="tel:0203 535 3535">0203 535 3535</a></dd>
+                                    <dt class='email'>Email</dt>
+                                    <dd><a class="contact-email" href="mailto:TVHA%2520Other%2520Customer%2520Services%253Ccontactus@metropolitan.org.uk%253E">contactus@metropolitan.org.uk</a></dd>
+                                </dl>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-md-6'></div>
+                <div class='col-md-6'>
+                    <ul class='privacy-links'>
+                        <li><a target="_blank" href="https://mtvh.co.uk/about-us/legal/">Legal</a></li>
+                        <li><a target="_blank" href="https://mtvh.co.uk/privacy-policy">Privacy policy</a></li>
+                        <li><a target="_blank" href="https://mtvh.co.uk/cookie-policy/">Cookie policy</a></li>
+                        <li><a target="_blank" href="https://mtvh.co.uk/privacy-policy/online-services-website-terms-and-conditions">Terms &amp; conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
