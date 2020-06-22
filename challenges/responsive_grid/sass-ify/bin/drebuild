@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+# Completely scrap and rebuild your local Docker artifacts
+
+# Clear out anything existing
+docker-compose stop
+docker-compose rm -f
+
+# Build the images from scratch
+docker-compose build
